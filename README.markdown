@@ -108,7 +108,7 @@ Written in __lowerCamelCase__. For example `setValue`.
 
 Written in __lowerCamelCase__.
 
-Static fields should be written in __uppercase__, with an underscore separating
+Static final fields (constants) should be written in __uppercase__, with an underscore separating
 words:
 
 ```java
@@ -215,13 +215,13 @@ Indentation is using spaces - never tabs.
 
 #### Blocks
 
-Indentation for blocks uses 2 spaces (not the default 4):
+Indentation for blocks uses the default 4 spaces:
 
 __BAD:__
 
 ```java
 for (int i = 0; i < 10; i++) {
-    Log.i(TAG, "index=" + i);
+  Log.i(TAG, "index=" + i);
 }
 ```
 
@@ -229,7 +229,7 @@ __GOOD:__
 
 ```java
 for (int i = 0; i < 10; i++) {
-  Log.i(TAG, "index=" + i);
+    Log.i(TAG, "index=" + i);
 }
 ```
 
