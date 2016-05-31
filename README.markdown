@@ -461,7 +461,12 @@ String color = "red";
 
 ## Copyright Statement
 
-TODO: add yell copyright
+The following copyright statement should be included at the top of every source
+file:
+
+    /**
+     * (c) hibu (UK) Limited 2016. All rights reserved.
+     */
 
 ## Smiley Face
 
